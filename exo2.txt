@@ -1,0 +1,19 @@
+Travail à réaliser :
+1. **Alléger le HTML** : repérez les éléments superflus :
+   - Supprimez les conteneurs <div>/<span> inutiles en vérifiant que ça n’altère pas le rendu.
+   - Si du texte est dans une balise non sémantique, envisagez de la remplacer par <p>, <article>, <section>, <header>, etc. appropriés.
+   - Assurez-vous que la structure de titres est correcte (<h1> unique, puis <h2>, etc.).
+   - Vérifiez que chaque image a un alt pertinent.
+   - Vérifiez qu’aucun lien ou bouton n’est vide (texte ou attribut aria-label requis).
+2. **Alléger le CSS** :
+   - Parcourez le fichier CSS fourni. Identifiez au moins 5 règles ou classes non utilisées ou redondantes (par exemple, une classe appliquée nulle part dans le HTML, ou deux classes qui pourraient être fusionnées).
+   - Supprimez ou commentez ces morceaux de CSS inutiles.
+   - Simplifiez des sélecteurs trop complexes si possible, en ajoutant des classes dans le HTML pour cibler plus simplement.
+   - Assurez-vous que le fichier CSS final ne dépasse pas une taille raisonnable pour le contenu (objectif: réduire de 30% ou plus le nombre de lignes).
+3. **Vérification** :
+   - Ouvrez la page HTML modifiée dans le navigateur. Elle doit s’afficher correctement, avec le même aspect visuel (ou très proche) qu’avant.
+   - Testez la navigation au clavier (touche Tab) : peut-on accéder aux liens/menus ? Le focus est-il visible ?
+   - (Optionnel) Exécutez Lighthouse – Accessibilité pour voir si les erreurs ont diminué.
+4. **Mesurez** :
+   - Comparez le poids du fichier HTML initial vs le vôtre (en Ko), et du CSS initial vs le vôtre.
+   - Notez le pourcentage de réduction obtenu.

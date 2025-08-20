@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Démo lourde – à mesurer</title>
+
+    <!-- Feuilles externes lourdes et globales (exprès) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+
+
+    <!-- Polices web multiples et graisses variées (exprès, sans swap) -->
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="py-5 text-center text-light header-hero container">
+
+        <h1 class="display-3 fw-bold">Catalogue Ultra Visuel</h1>
+        <p class="lead">Page volontairement lourde pour vos mesures « avant ».</p>
+        <button id="openMenu" class="btn btn-lg btn-outline-light">Menu</button>
+
+    </header>
+
+    <nav id="mainNav" class="main-nav collapse nav nav-pills">
+
+        <ul class="">
+            <li class="nav-item"><a class="nav-link active" href="#">Accueil</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Produits</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+        </ul>
+
+    </nav>
+
+    <section class="container my-5 ">
+        <h2 class="mb-4">Héros diaporama</h2>
+        <!-- Slider non différé (exprès) -->
+        <div class="hero-slider">
+            <div><img src="https://picsum.photos/800/600?random=11" alt="Diaporama1" loading="lazy"></div>
+            <div><img src="https://picsum.photos/800/600?random=12" alt="Diaporama2" loading="lazy"></div>
+            <div><img src="https://picsum.photos/800/600?random=13" alt="Diaporama3" loading="lazy"></div>
+        </div>
+    </section>
+
+    <section class="container my-5 ">
+        <h2 class="mb-4">Galerie massive</h2>
+        <!-- Images grandes, sans dimensions ni lazy (exprès) -->
+
+
+        <div class=" row g-4">
+            <div class="col-md-4"><img class="img-fluid shadow-lg" src="https://picsum.photos/600/400?random=21"
+                    alt="Gallery1" loading="lazy"></div>
+            <div class="col-md-4"><img class="img-fluid shadow-lg" src="https://picsum.photos/600/400?random=22"
+                    alt="Gallery2" loading="lazy"></div>
+            <div class="col-md-4"><img class="img-fluid shadow-lg" src="https://picsum.photos/600/400?random=23"
+                    alt="Gallery3" loading="lazy"></div>
+            <div class="col-md-4"><img class="img-fluid shadow-lg" src="https://picsum.photos/600/400?random=24"
+                    alt="Gallery4" loading="lazy"></div>
+            <div class="col-md-4"><img class="img-fluid shadow-lg" src="https://picsum.photos/600/400?random=25"
+                    alt="Gallery5" loading="lazy"></div>
+            <div class="col-md-4"><img class="img-fluid shadow-lg" src="https://picsum.photos/600/400?random=26"
+                    alt="Gallery6" loading="lazy">
+            </div>
+        </div>
+    </section>
+
+    <section class="container my-5">
+        <h2 class="mb-3">Liste rendue par JS (inutilement)</h2>
+
+
+    </section>
+
+    <footer class="py-5 mt-5 text-center text-muted container">
+
+        <p>© Démo lourde. <span id="clock">--:--:--</span></p>
+
+    </footer>
+
+    <!-- JS lourds, non différés (exprès) -->
+
+    <!-- <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.11.10/dayjs.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script> -->
+    <script src="main.js"></script>
+
+
+</body>
+
+</html>

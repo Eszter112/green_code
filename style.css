@@ -1,0 +1,26 @@
+.header-hero {
+  background-image: url("https://picsum.photos/4000/1500?blur=1");
+  background-size: cover;
+  background-position: center;
+  min-height: 50vh;
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.4);
+}
+
+.main-nav {
+  background: linear-gradient(120deg, #111, #333);
+}
+
+.hero-slider img {
+  width: 100%;
+  display: block;
+}
+
+body {
+  font-family: "Open Sans", "Roboto", "Lora", serif;
+  letter-spacing: 0.01em;
+}
+h1,
+h2,
+h3 {
+  font-family: "Lora", "Open Sans", serif;
+}
